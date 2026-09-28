@@ -121,6 +121,12 @@ form input, form select, form textarea {
 form button { border: none; cursor: pointer; }
 .contact-alt h3 { margin-top: 0; }
 .contact-alt a { color: var(--green); font-size: 1.15rem; }
+.contact-simple { text-align: center; display: block; }
+.phone-big {
+  font-family: Georgia, serif; font-size: 2.6rem; color: var(--green-dark);
+  text-decoration: none; font-weight: 700;
+}
+.phone-big:hover { color: var(--green); }
 
 footer { background: var(--green-dark); color: #cfd4cc; padding: 2rem 0; font-size: .92rem; }
 footer strong { color: #fff; }
