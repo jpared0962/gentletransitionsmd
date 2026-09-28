@@ -89,6 +89,11 @@ section { padding: 3.5rem 0; }
 .listing-figure { margin: 0 0 1.75rem; }
 .listing-figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
 .listing-figure figcaption { font-size: .9rem; color: var(--muted); margin-top: .6rem; }
+.listing-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 0 0 1.75rem; }
+.listing-gallery figure { margin: 0; }
+.listing-gallery img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
+.listing-gallery figcaption { font-size: .9rem; color: var(--muted); margin-top: .6rem; }
+@media (max-width: 720px) { .listing-gallery { grid-template-columns: 1fr; } }
 
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.75rem; }
 .cols h3 { font-size: 1.2rem; margin-bottom: .4rem; }
