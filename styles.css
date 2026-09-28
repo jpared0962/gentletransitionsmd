@@ -86,6 +86,9 @@ section { padding: 3.5rem 0; }
 .price span { font-size: 1rem; font-family: -apple-system, sans-serif; opacity: .85; }
 .card.highlight .btn { background: #fff; color: var(--green-dark) !important; border-color: #fff; margin-top: .75rem; }
 .fine { font-size: .88rem; color: var(--muted); }
+.listing-figure { margin: 0 0 1.75rem; }
+.listing-figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
+.listing-figure figcaption { font-size: .9rem; color: var(--muted); margin-top: .6rem; }
 
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.75rem; }
 .cols h3 { font-size: 1.2rem; margin-bottom: .4rem; }
