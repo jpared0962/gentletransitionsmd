@@ -37,7 +37,7 @@ h2 { font-size: 1.9rem; margin: 0 0 1.25rem; }
   display: flex; align-items: center; justify-content: space-between;
   padding-top: .8rem; padding-bottom: .8rem;
 }
-.brand { font-family: Georgia, serif; font-size: 1.35rem; color: var(--green-dark); text-decoration: none; display: inline-flex; align-items: center; gap: .6rem; }
+.brand { font-family: Georgia, serif; font-size: 1.35rem; color: var(--green-dark); text-decoration: none; display: inline-flex; align-items: center; gap: .6rem; white-space: nowrap; }
 .brand-mark { width: 34px; height: 34px; flex: none; }
 .brand span { color: var(--gold); font-size: 1rem; letter-spacing: .12em; }
 .site-header nav { display: flex; gap: 1.1rem; align-items: center; }
@@ -145,4 +145,6 @@ footer .fine { color: #9aa39b; }
   .hero h1 { font-size: 1.9rem; }
   .contact-grid { grid-template-columns: 1fr; }
   .site-header nav a:not(.btn) { display: none; }
+  .brand { font-size: 1.05rem; gap: .45rem; }
+  .brand-mark { width: 28px; height: 28px; }
 }
