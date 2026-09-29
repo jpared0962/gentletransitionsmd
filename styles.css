@@ -37,7 +37,8 @@ h2 { font-size: 1.9rem; margin: 0 0 1.25rem; }
   display: flex; align-items: center; justify-content: space-between;
   padding-top: .8rem; padding-bottom: .8rem;
 }
-.brand { font-family: Georgia, serif; font-size: 1.35rem; color: var(--green-dark); text-decoration: none; }
+.brand { font-family: Georgia, serif; font-size: 1.35rem; color: var(--green-dark); text-decoration: none; display: inline-flex; align-items: center; gap: .6rem; }
+.brand-mark { width: 34px; height: 34px; flex: none; }
 .brand span { color: var(--gold); font-size: 1rem; letter-spacing: .12em; }
 .site-header nav { display: flex; gap: 1.1rem; align-items: center; }
 .site-header nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
